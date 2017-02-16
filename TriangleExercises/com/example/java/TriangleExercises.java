@@ -6,11 +6,20 @@ class TriangleExercises {
     System.out.println(star);
   }
 
-  void printMultipleAsterisks(int n) {
+  void horizontalLine(int n) {
     System.out.println("Second task: ");
 
-    for (int i = 0; i <= n; i ++) {
+    for (int i = 0; i < n; i ++) {
       System.out.print(star);
+    }
+    System.out.println("");
+  }
+
+  void verticalLine(int n) {
+    System.out.println("Third task: ");
+
+    for (int i = 0; i < n; i ++) {
+      System.out.println(star);
     }
   }
 }
