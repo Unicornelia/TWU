@@ -40,7 +40,11 @@ sqlite> select book_id from checkout_item where member_id AND book_id > 0;
 sqlite> select * from movie;
 sqlite> select movie_id from checkout_item where member_id AND movie_id > 0;
 ```
-
+8.
+```
+sqlite> select * from checkout_item;
+sqlite> select * from member;
+```
 
 * solution.sql
 * solution.txt
