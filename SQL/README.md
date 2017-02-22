@@ -12,7 +12,9 @@
 - Who has checked out more that 1 item?
 - Tip: Research the GROUP BY syntax.
 
-# Answers see solution.sql and solution.txt
+# Answers:
+* solution.sql &
+* solution.txt
 
 ### Rest of the files => Learn SQL the hard way tasks
 - Chapter 1-7
