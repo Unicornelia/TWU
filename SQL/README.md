@@ -30,6 +30,17 @@ sqlite> select * from member where id = 1;
 ```
 2.
 
+3.
+```
+sqlite> select * from checkout_item;
+sqlite> select * from book;
+sqlite> select count (*) from checkout_item where member_id AND book_id > 0;
+sqlite> select book_id from checkout_item where member_id AND book_id > 0;
+
+sqlite> select * from movie;
+sqlite> select movie_id from checkout_item where member_id AND movie_id > 0;
+```
+
 
 * solution.sql
 * solution.txt
