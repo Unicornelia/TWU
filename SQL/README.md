@@ -10,7 +10,7 @@
 6. Use your query from question 1 to verify that you have checked it out.
 7. Also, provide the SQL used to update the database.
 8. Who has checked out more that 1 item?
-9. Tip: Research the GROUP BY syntax.
+   Tip: Research the GROUP BY syntax.
 
 # Answers
 
