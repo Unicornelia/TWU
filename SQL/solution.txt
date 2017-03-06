@@ -2,7 +2,7 @@
 => Anand Beck
 
 2. How many people have not checked out anything?
-
+42 - 5 = 37 people have not checked out anything
 
 3. What books and movies aren't checked out?
 =>
@@ -33,5 +33,3 @@ Checked out movies by id: 1,2,3,4,5 therefore movies with id of 6,7,8,9 are not 
 User with id of 1 and 6 has checked out more than 1 item, they are:
 1|Anand Beck
 6|Frank Smith
-
-9. Tip: Research the GROUP BY syntax.
