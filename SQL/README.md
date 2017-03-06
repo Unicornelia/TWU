@@ -7,9 +7,8 @@
 3. What books and movies aren't checked out?
 4. Add the book 'The Pragmatic Programmer', and add yourself as a member.
 5. Check out 'The Pragmatic Programmer'.
-6. Use your query from question 1 to verify that you have checked it out.
-7. Also, provide the SQL used to update the database.
-8. Who has checked out more that 1 item?
+6. Use your query from question 1 to verify that you have checked it out. Also, provide the SQL used to update the database.
+7. Who has checked out more that 1 item?
    Tip: Research the GROUP BY syntax.
 
 # Answers
@@ -58,16 +57,15 @@ sqlite> insert into member values (43, "Kornelia Szabo");
 5.
 
 ```
+sqlite> insert into checkout_item values (43, 11, " ");
 ```
 
 6.
-
+```
+sqlite> select member_id from checkout_item where book_id = 11;
+```
 
 7.
-
-
-
-8.
 
 ```
 sqlite> select member_id from checkout_item where member_id > 0;

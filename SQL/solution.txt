@@ -21,12 +21,16 @@ Checked out movies by id: 1,2,3,4,5 therefore movies with id of 6,7,8,9 are not 
 9|Office Space
 
 4. Add the book 'The Pragmatic Programmer', and add yourself as a member.
+Done
 
 5. Check out 'The Pragmatic Programmer'.
+Done
 
 6. Use your query from question 1 to verify that you have checked it out.
+Done
 
 7. Also, provide the SQL used to update the database.
+Done
 
 8. Who has checked out more that 1 item?
 =>
